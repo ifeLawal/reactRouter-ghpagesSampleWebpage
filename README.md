@@ -11,3 +11,6 @@ help you understand any differences in the code.
 
 I used [this blog post](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e) on Noteworthy - The Journal Blog by Ishara Malaviarachchi
 that provided the steps for loading a react app into github pages.
+
+I used [this blog post on connecting gh-pages to react router](https://medium.com/@Dragonza/react-router-problem-with-gh-pages-c93a5e243819) to finalize the
+full process.
