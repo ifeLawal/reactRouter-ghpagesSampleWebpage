@@ -28,7 +28,7 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect, useHistory } fr
 
 function App() {
   const name = 'John Doe'
-  const isAuthenticated = false
+  const isAuthenticated = true
   return (
     <Router>
       <main>
@@ -99,7 +99,7 @@ const Work = () => {
   return (
     <Fragment>
       <h1>Work</h1>
-      <button onClick={() => history.push('/')} >Go to home</button>
+      <button onClick={() => history.push('/')} >Go back home</button>
       <FakeText />
     </Fragment>
   );
