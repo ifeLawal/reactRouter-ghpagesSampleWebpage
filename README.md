@@ -1,4 +1,4 @@
-# React Router + Gh-pages
+# Create React App + React Router + Gh-pages
 
 This is a sample repo using react, react-router, and gh-pages to run a react
 website with multiple pages through github.
