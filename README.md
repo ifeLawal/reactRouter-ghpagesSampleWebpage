@@ -1,4 +1,4 @@
-# React Router + Gh-pages
+# Create React App + React Router + Gh-pages
 
 ### See the demo: http://ifeLawal.github.io/reactRouter-ghpagesSampleWebpage
 
