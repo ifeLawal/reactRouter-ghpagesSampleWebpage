@@ -1,5 +1,7 @@
 # React Router + Gh-pages
 
+### See the demo: http://ifeLawal.github.io/reactRouter-ghpagesSampleWebpage
+
 This is a sample repo using react, react-router, and gh-pages to run a react
 website with multiple pages through github.
 
