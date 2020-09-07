@@ -34,7 +34,7 @@ function App() {
   const isAuthenticated = true
   // const history = useHistory()
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/reactRouter-ghpagesSampleWebpage'>
     {/* // <Router history={hashHistory}> */}
       <main>
         <nav>
@@ -45,6 +45,7 @@ function App() {
             <li><Link to='/work'>Work</Link></li>
             {/* <li><Link to='/test'>Test</Link></li> */}
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/404">New Tester page</Link></li>
           </ul>
         </nav>
           <Switch>
