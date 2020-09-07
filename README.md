@@ -11,12 +11,21 @@ understanding of react before attempting this. You can either [read React docume
 on the react website or follow [this react
 lesson](https://www.freecodecamp.org/learn/front-end-libraries/react/) on FreeCodeCamp.org.
 
-I used [this blog post](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e) on Noteworthy - The Journal Blog by Ishara Malaviarachchi
-that provided the steps for loading a react app into github pages and I figured
-out using process.env.PUBLIC_URL through [this blog post on connecting gh-pages to react
-router](https://medium.com/@Dragonza/react-router-problem-with-gh-pages-c93a5e243819)
-to finalize the
-full process.
+I used [the blog
+post "Deploying a create-react-app with routing to GitHub
+pages](https://levelup.gitconnected.com/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2)
+which covered setting up npm gh-pages and having a parent class of HashHistory
+to keep your subfolders in place when react renders your pages. You can also use
+[browserRouter](https://reacttraining.com/react-router/web/api/BrowserRouter)
+which removes the # in the url. For BrowserRouter if you set your basename to
+"/" it will use the "{github_usernamme}.github.io/" url format, where the
+{github_username} implies your actual github username ie in my case "ifelawal.github.io". If you want your
+url to retain the "{github_usernamme}.github.io/{repo_name}" format you need to
+set your basename="/{repo_name}." It may have other benefits as well, especially
+since on the reacttraining page there is a note on HashRouter and it's lack of
+support on location.key, however I am not experienced enough to cover the differences.
+
+
 
 This project was also bootstrapped with [Create React
 App](https://github.com/facebook/create-react-app).
